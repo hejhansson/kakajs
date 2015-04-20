@@ -20,8 +20,8 @@
     var create, find, remove, update;
 
     /**
-    * Creates a cookie with name, value and 
-    * expiring date. 
+    * Create a cookie with name, value and 
+    * expiring date in days. 
     *
     * @param {string} name
     *   Name of the cookie.
@@ -50,7 +50,7 @@
     };
 
     /**
-    * Finds a cookie by name and returns its value.
+    * Find a cookie by name and returns its value.
     *
     * @param {string} name
     *   Name of the cookie.
@@ -88,9 +88,9 @@
     };
 
     /**
-    * Updates a cookie by name with new value.
+    * Update a cookie by name with a new value.
     * WARNING: an update will remove your
-    * expiring date so the date will changed
+    * expiring date so the date will be changed
     * to 7 days if you're not setting a new one. 
     *
     * @param {string} name
