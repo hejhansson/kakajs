@@ -83,7 +83,7 @@
         create(name, "", -1);
       }
       else {
-        console.warn('No cookie found to remove.');
+        console.warn('Could not find a cookie to remove.');
       }
     };
 
@@ -109,7 +109,7 @@
         (days) ? create(name, value, days) : create(name, value, 7);
       }
       else {
-        console.warn('No cookie found to update.');
+        console.warn('Could not find a cookie to change.');
       }
     };
 
